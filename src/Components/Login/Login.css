@@ -1,0 +1,112 @@
+.form-container {
+    width: 500px;
+    background: #FFFFFF;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    box-shadow: -12px 13px 4px #FFE0B3;
+    ;
+    border-radius: 8px;
+}
+
+.form-title {
+    font-size: 35px;
+    color: #2A414F;
+    font-weight: 400;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+
+.input-group label {
+    display: block;
+    margin-left: 5px;
+    margin-bottom: 9px;
+}
+
+.input-group input {
+    width: 415px;
+    height: 55px;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-size: 24px;
+}
+
+.form-submit {
+    width: 415px;
+    height: 55px;
+    background-color: rgba(255, 153, 0, 0.3);
+    border: 0px;
+    border-radius: 5px;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: rgba(255, 153, 0, 0.5);
+}
+
+.google-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 415px;
+    height: 55px;
+    border-radius: 5px;
+    font-size: 21px;
+    background-color: white;
+    border: 1px solid #95A0A7;
+    margin-bottom: 40px;
+}
+
+.form-link {
+    color: #FF9900;
+    text-decoration: none;
+}
+
+.form {
+    text-align: center;
+}
+
+.or {
+    display: flex;
+    margin-bottom: 33px;
+}
+
+.or .white {
+    color: white;
+}
+
+.or p {
+    color: #95A0A7;
+}
+
+.hr1 {
+    margin: 8px 26px;
+}
+
+.hr2 {
+    margin: 8px 26px;
+}
+
+.form-google {
+    width: 415px;
+    height: 55px;
+    background-color: white;
+    border: 1px solid #95A0A7;
+    border-radius: 5px;
+    font-size: 21px;
+    margin: 40px 0;
+}
+
+.continue {
+    padding-left: 6px;
+}
