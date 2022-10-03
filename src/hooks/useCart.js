@@ -9,7 +9,7 @@ const useCart = () => {
         const savedCart = [];
         const keys = Object.keys(storedCart);
 
-        fetch('https://vast-castle-26839.herokuapp.com/productByKeys', {
+        fetch('https://ema-john-server.onrender.com/productByKeys', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

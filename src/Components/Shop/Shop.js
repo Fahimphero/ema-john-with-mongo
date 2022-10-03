@@ -17,13 +17,13 @@ const Shop = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        fetch(`https://vast-castle-26839.herokuapp.com/product?page=${page}&size=${size}`)
+        fetch(`https://ema-john-server.onrender.com/product?page=${page}&size=${size}`)
             .then(res => res.json())
             .then(data => setProducts(data));
     }, [page, size]);
 
     useEffect(() => {
-        fetch('https://vast-castle-26839.herokuapp.com/productCount')
+        fetch('https://ema-john-server.onrender.com/productCount')
             .then(res => res.json())
             .then(data => {
                 const count = data.count;
